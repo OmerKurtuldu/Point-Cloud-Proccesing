@@ -6,7 +6,7 @@ using namespace std;
 class Transform
 {
 private:
-    
+    double rotation[9];
     double angles[3];
     double trans[3];
     double transMatrix[4][4];
@@ -20,7 +20,7 @@ public:
     double* getAngles();
     double* getTrans();
 
-    void setRotation();
+    void setRotation(double[]);
     void setTranslation();
 
     Point doTransform(Point p);
