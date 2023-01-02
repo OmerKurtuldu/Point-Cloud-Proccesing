@@ -56,7 +56,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TransformTest.cpp">
+    <ClCompile Include="DepthCameraTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

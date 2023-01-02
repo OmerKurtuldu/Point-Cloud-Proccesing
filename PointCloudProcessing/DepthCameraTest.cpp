@@ -23,7 +23,7 @@ int main() {
 	
 	pc = dp.capture();
 
-	cout << pc.getPointNumber();
+	cout << "Satir sayisi = " << pc.getPointNumber();
 
 
 
