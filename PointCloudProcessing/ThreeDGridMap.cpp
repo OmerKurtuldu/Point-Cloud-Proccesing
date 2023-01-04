@@ -45,18 +45,22 @@ double ThreeDGridMap::getGridSize() const
 };
 
 
-//void ThreeDGridMap::insertPointCloud(PointCloud&  pc) {
+//void ThreeDGridMap::insertPointCloud(PointCloud& pc) {
 //    // PointCloud'taki her bir noktayý haritaya ekle
-//    for (int i = 0; i < pc.getPointNumber(); i++) {
-//        insertPoint(pc.getPoint(i));
-//    }
-//}
+//    list <Point> p1;
+//    p1 = pc.getPoint();
 //
+//    
+//
+//}
+
 //void ThreeDGridMap::insertPoint(Point& p) {
 //    // Noktanýn hangi küpte olduðunu hesapla
-//    double i = p.getX() / gridSize;
-//    double j = p.getY() / gridSize;
-//    double k = p.getZ() / gridSize;
+//    list<Point>::iterator iter;
+//    
+//    int i = iter./ gridSize;
+//    int j = p.getY() / gridSize;
+//    int k = p.getZ() / gridSize;
 //
 //    // Küpü true olarak iþaretle
 //    map[i][j][k] = true;
